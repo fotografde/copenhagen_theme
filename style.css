@@ -1198,6 +1198,11 @@ ul {
   font-size: 16px;
 }
 
+.blocks-item-image img {
+  width: 120px;
+  padding: 5px;
+}
+
 .blocks-item-description {
   font-weight: 300;
   margin: 0;

@@ -41,13 +41,20 @@
 
 
         <li class="blocks-item blocks-item-new-request">
-                <span class="blocks-item-image"><img src="{{asset 'support.svg'}}" /></span>
-          	{{link 'new_request' class='blocks-item-link'}}
+
+        {{#link 'new_request' class='blocks-item-link'}}
+          <span class="blocks-item-image"><img src="{{asset 'support.svg'}}" /></span>
+          <span class="blocks-item-title">{{t 'submit_a_request'}}</span>
+        {{/link}}
+
         </li>
 
       </ul>
       {{pagination}}
     </section>
+
+
+
 
     {{#if promoted_articles}}
       <section class="articles">
