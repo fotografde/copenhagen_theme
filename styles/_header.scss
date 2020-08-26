@@ -8,6 +8,15 @@ $header-height: 71px;
   display: flex;
   height: $header-height;
   justify-content: space-between;
+
+  &.language-selector > button {
+    border: 0;
+    color: $link_color;
+    min-width: 0;
+    padding: 0;
+    white-space: nowrap;
+    margin-right: 20px;
+  }
 }
 
 .logo img {

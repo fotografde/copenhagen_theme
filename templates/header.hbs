@@ -7,15 +7,39 @@
     {{/link}}
   </div>
   <div class="nav-wrapper">
+
     <button class="menu-button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
         <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
       </svg>
     </button>
+
     <nav class="user-nav" id="user-nav">
       {{link 'community'}}
-      {{link 'new_request' class='submit-a-request'}}
+      <!--{{link 'new_request' class='submit-a-request'}}-->
     </nav>
+
+      {{#if alternative_locales}}
+        <div class="dropdown language-selector">
+          <button class="dropdown-toggle" aria-haspopup="true">
+            <span class="hide-on-mobile">
+            {{current_locale.name}}
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+              </svg>
+            </span>
+          </button>
+          <span class="dropdown-menu dropdown-menu-end" role="menu">
+            {{#each alternative_locales}}
+              <a href="{{url}}" dir="{{direction}}" rel="nofollow" role="menuitem">
+                {{name}}
+              </a>
+            {{/each}}
+          </span>
+        </div>
+      {{/if}}
+
+
     {{#if signed_in}}
       <div class="user-info dropdown">
         <button class="dropdown-toggle" aria-haspopup="true">

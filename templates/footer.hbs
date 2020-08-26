@@ -1,6 +1,32 @@
 <footer class="footer">
   <div class="footer-inner">
-    {{#link 'help_center'}}{{help_center.name}}{{/link}}
+
+    {{#is current_locale.name 'Deutsch'}}
+    <span>
+      Aktuell sind wir Mo-Fr von 10:00 bis 16:00 Uhr telefonisch erreichbar <br />
+      ☎
+        <b>DE</b> +49 30 364 288 950
+        <b>AT</b> +43 800 95 69 39
+        <b>CH</b> +41 800 558 707
+    </span>
+    {{/is}}
+
+    {{#is current_locale.name 'English (GB)'}}
+   		<span>☎ +44 20 8068 8571</span>
+    {{/is}}
+
+    {{#is current_locale.name 'English (US)'}}
+			<span>☎ +1 646 362 5100</span>
+    {{/is}}
+
+  	{{#is current_locale.name 'Français'}}
+    <span>
+      Actuellement, nous sommes à votre disposition par téléphone du lundi au vendredi entre 9h et 11:30h <br />
+      ☎ +33 1 76 44 05 46
+    </span>
+    {{/is}}
+
+    <!-- {{#link 'help_center'}}{{help_center.name}}{{/link}} -->
 
     <div class="footer-language-selector">
       {{#if alternative_locales}}
@@ -22,4 +48,6 @@
       {{/if}}
     </div>
   </div>
+
+
 </footer>
