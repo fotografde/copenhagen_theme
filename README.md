@@ -5,6 +5,46 @@ Learn more about customizing Zendesk Guide [here](https://support.zendesk.com/hc
 
 The Copenhagen theme for Help Center consists of a [set of templates](#templates), [styles](#styles), a Javascript file used mainly for interactions and an [assets folder](#assets).
 
+## Relevant Links:
+
+Helpers: https://developer.zendesk.com/apps/docs/help-center-templates/helpers
+Template Cookbook: https://support.zendesk.com/hc/en-us/articles/216367358-Help-Center-templating-cookbook-Guide-Professional-and-Enterprise-
+CSS Cookbook: https://support.zendesk.com/hc/en-us/articles/203664426-Help-Center-CSS-cookbook-Guide-Professional-and-Enterprise-
+Settings Object: https://support.zendesk.com/hc/en-us/articles/115012547687#setting-object
+Reference: https://developer.zendesk.com/apps/docs/help-center-templates/introduction
+
+
+## How to run locally?
+Preview Themes locally: https://support.zendesk.com/hc/en-us/articles/115012793547
+
+- Install `sassc` gem. You can run:
+```
+    gem install sassc
+```
+
+Now you can compile your SASS files running:
+```
+./bin/compile.rb
+```
+
+- Install Zendesk App Tools
+```
+gem install rake
+gem install zendesk_apps_tools
+```
+
+- Run Preview
+```
+cd gotphoto-zendesk-theme
+zat theme preview
+```
+- Subdomain "fotografde"
+- User "firstname.lastname@fotograf.de/token"
+- Password "USE THOMAS API TOKEN"
+
+- Open Browser https://fotografde.zendesk.com/hc/admin/local_preview/start
+
+
 ## How to use
 This is the latest version of the Copenhagen theme available for Guide. It is possible to use this repository as a starting point to build your own custom theme. You can fork this repository as you see fit.
 You can use your favorite IDE to develop themes and preview your changes locally in a web browser using the Zendesk Apps Tools (ZAT). For details, see [Previewing theme changes locally](https://support.zendesk.com/hc/en-us/articles/115014810447).

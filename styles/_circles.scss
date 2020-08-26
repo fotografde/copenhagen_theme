@@ -1,0 +1,28 @@
+/* Helper classes to be re-used within custom blocks */
+.gotphoto-gradient {
+  background: #4FACFE; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #4FACFE 0%, #A8EDEA 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4FACFE 0%,#A8EDEA 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #4FACFE 0%, #A8EDEA 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4FACFE', endColorstr='#A8EDEA',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.left-circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -290px;
+  left: 200px;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.right-circle {
+  width: 300px;
+  height: 150px;
+  z-index: 0;
+  position: relative;
+  bottom: 0;
+  left: 500px;
+  border-radius: 150px 150px 0 0;
+}
