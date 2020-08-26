@@ -9,7 +9,7 @@ $header-height: 71px;
   height: $header-height;
   justify-content: space-between;
 
-  &.language-selector > button {
+  .language-selector > button {
     border: 0;
     color: $link_color;
     min-width: 0;
