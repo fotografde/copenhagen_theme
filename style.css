@@ -658,7 +658,7 @@ ul {
   }
 }
 
-.header.language-selector > button {
+.header .language-selector > button {
   border: 0;
   color: $link_color;
   min-width: 0;
