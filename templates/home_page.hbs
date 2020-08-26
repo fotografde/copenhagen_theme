@@ -20,6 +20,7 @@
           {{#if ../has_multiple_categories}}
             <li class="blocks-item">
               <a href='{{url}}' class="blocks-item-link">
+                <span class="blocks-item-image"><img src="{{asset id prefix='category-' suffix='.svg'}}" /></span>
                 <span class="blocks-item-title">{{name}}</span>
                 <span class="blocks-item-description">{{excerpt description}}</span>
               </a>
@@ -40,6 +41,7 @@
 
 
         <li class="blocks-item blocks-item-new-request">
+                <span class="blocks-item-image"><img src="{{asset 'support.svg'}}" /></span>
           	{{link 'new_request' class='blocks-item-link'}}
         </li>
 
