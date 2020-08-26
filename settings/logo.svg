@@ -1,15 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="37" height="37">
-  <defs>
-    <style>
-      .cls-1{fill:none}.cls-1,.cls-2{stroke:#fff;stroke-miterlimit:10;stroke-width:5px}
-    </style>
-  </defs>
-  <rect x="16" y="16" width="168" height="168" rx="50" transform="rotate(-45 100 99.998)"/>
-  <rect class="cls-1" x="38.04" y="38.04" width="123.91" height="123.91" rx="30" transform="rotate(-45 100 99.998)"/>
-  <circle class="cls-1" cx="100" cy="100" r="59.4"/>
-  <circle class="cls-1" cx="100" cy="100" r="32.09"/>
-  <rect class="cls-2" x="58.71" y="47.47" width="16" height="38.48" rx="3" transform="rotate(-45 66.711 66.707)"/>
-  <rect class="cls-2" x="123.71" y="47.47" width="16" height="38.48" rx="3" transform="rotate(-135 131.708 66.708)"/>
-  <rect class="cls-2" x="58.71" y="113.47" width="16" height="38.48" rx="3" transform="rotate(45 66.709 132.712)"/>
-  <rect class="cls-2" x="123.71" y="113.47" width="16" height="38.48" rx="3" transform="rotate(135 131.708 132.71)"/>
+<svg width="110" height="110" xmlns="http://www.w3.org/2000/svg">
+ <title>GotPhoto Logo</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="112" width="112" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Logo</title>
+  <g id="svg_1" fill-rule="evenodd" fill="none">
+   <path id="svg_2" fill-rule="nonzero" fill="#4FACFE" d="m30.359,6.793c42.88,5.876 58.614,38.27 47.028,60.974c-0.614,1.377 -0.554,1.799 0.903,0.825c10.548,-8.055 23.36,-27.882 18.31,-59.237c-0.3,-1.409 -8.139,-6.548 -66.02,-4.031c-2.712,0.11 -2.485,1.364 -0.221,1.47l0,-0.001z"/>
+   <path id="svg_3" fill="#1B2251" d="m79.102,102.051c-42.886,-5.886 -58.62,-38.282 -47.031,-60.976c0.617,-1.38 0.557,-1.804 -0.9,-0.833c-10.548,8.066 -23.366,27.889 -18.316,59.24c0.306,1.411 8.148,6.548 66.026,4.036c2.707,-0.116 2.488,-1.366 0.221,-1.467z"/>
+   <path id="svg_4" fill="#1B2251" d="m67.828,32.015c1.372,0.612 1.802,0.557 0.831,-0.903c-8.071,-10.559 -27.891,-23.366 -59.245,-18.312c-1.411,0.303 -6.543,8.14 -4.026,66.02c0.108,2.715 1.364,2.486 1.462,0.222c5.883,-42.884 38.282,-58.62 60.978,-47.026l0,-0.001z"/>
+   <path id="svg_5" fill-rule="nonzero" fill="#C7DCEE" d="m102.305,29.355c-5.878,42.881 -38.271,58.617 -60.973,47.032c-1.38,-0.615 -1.802,-0.555 -0.828,0.9c8.068,10.553 27.883,23.366 59.237,18.318c1.411,-0.303 6.546,-8.14 4.031,-66.026c-0.11,-2.71 -1.364,-2.485 -1.467,-0.224z"/>
+  </g>
+ </g>
 </svg>
