@@ -1169,7 +1169,7 @@ ul {
   color: $text_color;
 }
 
-.blocks-item .new-request-block {
+.blocks-item-new-request {
   background: #e9f4fe;
 }
 
