@@ -970,7 +970,9 @@ ul {
   border-radius: 30px;
   box-sizing: border-box;
   color: #666;
-  height: 40px;
+  height: 50px;
+  font-size: 1.1em;
+  font-weight: 400;
   padding-left: 40px;
   padding-right: 20px;
   -webkit-appearance: none;
@@ -988,7 +990,7 @@ ul {
 }
 
 .search-full input[type="search"] {
-  border: 1px solid #fff;
+  border: 1px solid #81bdee;
 }
 
 .search-icon {
@@ -1127,7 +1129,7 @@ ul {
 }
 
 .blocks-item {
-  border: 1px solid $brand_color;
+  border: 1px solid #81bdee;
   border-radius: 4px;
   box-sizing: border-box;
   color: $brand_color;
@@ -1199,7 +1201,7 @@ ul {
 }
 
 .blocks-item-image img {
-  width: 120px;
+  height: 100px;
   padding: 5px;
 }
 
